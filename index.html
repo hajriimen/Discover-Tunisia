@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Découvrez la Tunisie</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    /* Hero background */
+    .hero-bg {
+      background-image: url('images/sahara.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Galerie */
+    .gallery {
+      margin-top: 20px;
+    }
+
+    .gallery figure {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      height: 100%;
+      background-color: #f5f5f5;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+
+    .gallery figure:hover img {
+      transform: scale(1.05);
+    }
+
+    .caption {
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.2;
+    }
+
+    .columns.is-variable.is-4 {
+      margin-left: -1rem;
+      margin-right: -1rem;
+    }
+
+    .columns.is-variable.is-4 .column {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar is-light">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="index.html">Portfolio</a>
+    <a class="navbar-item" href="destination.html">Destinations</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero is-fullheight hero-bg">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title has-text-white">Découvrez la Tunisie</h1>
+      <h2 class="subtitle has-text-white">Culture, histoire et aventure</h2>
+      <a class="button is-warning is-large" href="destination.html">Réservez maintenant</a>
+    </div>
+  </div>
+</section>
+
+<!-- Section Destinations -->
+<section class="section">
+  <div class="container has-text-centered">
+    <h1 class="title">Destinations en Tunisie</h1>
+    <p class="subtitle">Cliquez sur chaque destination pour découvrir son histoire et ses attractions.</p>
+
+    <div class="columns is-multiline is-variable is-4 gallery">
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/bizerte.png" alt="Bizerte">
+          <figcaption class="caption">Bizerte – Ville côtière avec son port historique et ses plages.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/sahara.jpg" alt="Sahara">
+          <figcaption class="caption">Désert du Sahara – Expérience des dunes et balades à dos de chameau.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/activites_desert_tunisie.jpg.webp" alt="Activités dans le désert">
+          <figcaption class="caption">Activités dans le désert – Excursions en quad et bivouac.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/image_1.png" alt="Sidi Bou Said">
+          <figcaption class="caption">Sidi Bou Said – Village pittoresque bleu et blanc surplombant la mer.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/image_2.png" alt="Monastir">
+          <figcaption class="caption">Monastir – Ribat historique et plages méditerranéennes.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/image_3.png" alt="Douz">
+          <figcaption class="caption">Douz – Porte du désert et oasis typiques.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/monastir.png" alt="Monastir">
+          <figcaption class="caption">Monastir – Mausolée de Bourguiba et architecture moderne.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/unnamed.png" alt="El Jem">
+          <figcaption class="caption">El Jem – Amphithéâtre romain impressionnant.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/medina_sfax_tunisie_activites.jpg.webp" alt="Sfax">
+          <figcaption class="caption">Sfax – Médina traditionnelle et souks animés.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/chenini_mosquee_tunisie.jpg.webp" alt="Chenini">
+          <figcaption class="caption">Chenini – Village berbère sur la montagne et mosquée historique.</figcaption>
+        </figure>
+      </div>
+
+      <div class="column is-one-third">
+        <figure>
+          <img src="images/ribat-sousse-ou-aller-en-tunisie-itineraire.jpg" alt="Sousse">
+          <figcaption class="caption">Sousse – Ribat historique et médina animée.</figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>© 2025 – Découvrez la Tunisie</p>
+  </div>
+</footer>
+
+</body>
+</html>
